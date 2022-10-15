@@ -63,40 +63,6 @@ function total(){
 
 
 
-/* here is the array used for project 1 */
-
-const tax_rate = prompt('Enter tax rate (0.10)');
-const shipping_threshold = prompt('Enter shipping threshold (1000)');
-
-/* add loop and other code here ... in this simple exercise we are not
-   going to concern ourselves with minimizing globals, etc */
-
-const cart = [
-    {
-          product: {
-                title: "Portrait of Marten Soolmans",
-                filename: "105070.jpg",
-                price: 75.0
-          },
-          quantity: 3
-    },
-    {
-          product: {
-                title: "View of Houses in Delft",
-                filename: "106060.jpg",
-                price: 125.0
-          },
-          quantity: 1
-    },
-    {
-          product: {
-                title: "Woman Reading a Letter",
-                filename: "106050.jpg",
-                price: 100.0
-          },
-          quantity: 2
-    },      
-];
 
 
 // Took this code from Connor my code didn't work at all and that's why I copied his javascript :(
