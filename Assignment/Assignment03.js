@@ -1,5 +1,4 @@
-
- function temperatureConvert() {
+function temperatureConvert() {
     let temperature = parseFloat(document.getElementById("tempFarenheit").value);
     document.getElementById("tempCelsius").value = ((temperature - 32) * 5/9);
 }
@@ -39,34 +38,40 @@ function total(){
 }
 
 
+
+
 /* here is the array used for project 1 */
 
 const cart = [
-      {
-            product: {
-                  title: "Portrait of Marten Soolmans",
-                  filename: "105070.jpg",
-                  price: 75.0
-            },
-            quantity: 3
-      },
-      {
-            product: {
-                  title: "View of Houses in Delft",
-                  filename: "106060.jpg",
-                  price: 125.0
-            },
-            quantity: 1
-      },
-      {
-            product: {
-                  title: "Woman Reading a Letter",
-                  filename: "106050.jpg",
-                  price: 100.0
-            },
-            quantity: 2
-      },      
+    {
+          product: {
+                title: "Portrait of Marten Soolmans",
+                Image: "105070.jpg",
+                price: 75.0
+          },
+          quantity: 3
+    },
+    {
+          product: {
+                title: "View of Houses in Delft",
+                Image: "106060.jpg",
+                price: 125.0
+          },
+          quantity: 1
+    },
+    {
+          product: {
+                title: "Woman Reading a Letter",
+                ImageData: "106050.jpg",
+                price: 100.0
+          },
+          quantity: 2
+    },      
 ];
+
+
+//Copied this from Megan because I couldn't figure it out.
+  
 /* define your functions here */
 function calculateTotal(quantity, price) {
     return quantity * price;
@@ -124,12 +129,9 @@ function outputCartRow(item, total) {
     totals[3].getElementsByTagName("td")[1].innerHTML = "$" + parseFloat(subtotal + (subtotal * tax) + shipping).toFixed(2);
     
     
-}
+}4
 
 outputCartRow();
-
-
-
 
 
 
