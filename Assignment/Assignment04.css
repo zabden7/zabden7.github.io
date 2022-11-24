@@ -1,0 +1,96 @@
+body{
+    background-color: ghostwhite;
+}
+hr{
+    background-color: blue;
+}
+#loadjson{
+    font-style: italic;
+    color: blueviolet;
+}
+#loadpriorcountry{
+    font-style: italic;
+    color: blueviolet;
+  }
+  #loadnextcountry{
+    font-style: italic;
+    color: blueviolet;} 
+h1{
+    color: blue;
+  } 
+  h2{
+    color: blue;
+  } 
+  
+  p {
+    text-indent: 2.5em;
+  }
+  #a {
+    color: red; 
+  }
+
+  #b {
+    color: red; 
+  }
+
+  #c {
+    color: red; 
+  }
+
+  #d {
+    color: red; 
+  }
+
+  #e {
+    color: red; 
+  }
+  #f  {
+    color: red; 
+  }
+
+  #a2 {
+    color: red; 
+  }
+
+  #b2 {
+    color: red; 
+  }
+  #c2 {
+    color: red; 
+  }
+  #d2 {
+    color: red; 
+  }
+  #e2 {
+    color: red; 
+  }
+  #f2 {
+    color: red; 
+  }
+  #g2 {
+    color: red; 
+  }
+  #h2 {
+    color: red; 
+  }
+  #a3 {
+    color: red; 
+  }
+  #b3 {
+    color: red; 
+  }
+  #c3 {
+    color: red; 
+  }
+  #d3 {
+    color: red; 
+  }
+  #e3 {
+    color: red; 
+  }
+  #f3 {
+    color: red; 
+  }
+  #g3 {
+    color: red; 
+  }
